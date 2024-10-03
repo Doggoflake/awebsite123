@@ -4,7 +4,18 @@
 <title>
 A kitten is a mitten on kittens wearing mittens that has kittens
 </title>
-<link href="skbidi.css" rel="stylesheet"
+<link href="skbidi.css" rel="stylesheet"/>
+<script>
+let mittenvalue = 0;
+let counterRefrence = document.getElementById("mitten")
+function makemittens(){
+mittenvalue = mittenvalue + 1;
+console.log(mittenvalue);
+counterRefrence.innerText = mittenvalue;
+}
+
+
+</script>
 </head>  
 
 <body>
@@ -14,7 +25,7 @@ A kitten is a mitten on kittens wearing mittens that has kittens
 Kitten has a mitten and there is a kitten with a gold mitten that was eating kittens and since the mitten has a kitten and it was eating mittens there was mittens on the kitten
 
 </p>
-
-
+<hi id="mitten"></hi>
+<button onclick="mittenvalue">kitten on mitten</button>
 </body>
 </html>
